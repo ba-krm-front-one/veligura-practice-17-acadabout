@@ -1,0 +1,272 @@
+*,
+*:before,
+*:after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.clearfix {
+    clear: both;
+}
+html{
+    height: 100%;
+}
+body{
+    height: 100%;
+}
+.my-header{
+    width: 100%;
+    height: 500px;
+    background: url("../img/header-bg.png") no-repeat center;
+    background-size: cover;
+}
+.container{
+    max-width: 1139px;
+    margin: 0 auto;
+    padding-top: 43px;
+    position: relative;
+    font-family: Montserrat;
+    color: #5F5F6E;
+    text-transform: uppercase;
+}
+.nav-top{
+    height: 100%;
+}
+.logo-text{
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+}
+.header-btn{
+    position: absolute;
+    width: 31px;
+    height: 15px;
+    top: 43px;
+    right: 0;
+    cursor: pointer;
+}
+.nav-center{
+    margin-top: 210px;
+    text-align: center;
+}
+.nav-center__title{
+    font-size: 36px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    margin-bottom: 28px;
+}
+.nav-center__line{
+    display: inline-block;
+}
+.nav-center__link{
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    color: #5F5F6E;
+    text-decoration: none;
+    cursor: pointer;
+}
+.disabled {
+    pointer-events: none; /* делаем ссылку некликабельной */
+    cursor: default;  /* устанавливаем курсор в виде стрелки */
+    color: #5F5F6E;
+    text-decoration: none;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+}
+.nav-center__link:hover{
+    text-decoration: underline;
+}
+.flex-container{
+    max-width: 1139px;
+    margin: 0 auto;
+}
+.flex-content{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 150px;
+}
+.content-info{
+    width: 50%;
+    min-width: 300px;
+    height: 100%;
+    flex-grow: 1;
+    padding-bottom: 20px;
+}
+.content-title{
+    width: 280px;
+    height: 32px;
+    background: url("../img/bg-title.png") no-repeat left bottom;
+    font-family: Montserrat;
+    font-size: 30px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    color: #5F5F6E;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.content-info__title-text{
+    font-family: OpenSans;
+    color: #5F5F6E;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+}
+.content-text{
+    font-family: OpenSans;
+    color: #5F5F6E;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    padding-right: 30px;
+    line-height: 30px;/* Приближение из-за подстановки шрифтов */
+}
+.section-benefit{
+    padding-top: 143px;
+}
+.title-center{
+    margin: auto;
+}
+.section-benefit__text{
+    max-width: 650px;
+    font-family: OpenSans;
+    color: #5F5F6E;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+}
+.benefit-block{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.benefit-block__element{
+    width: 33.333%;
+    min-width: 300px;
+    height: 100%;
+    margin-bottom: 50px;
+    flex-grow: 1;
+}
+.element-title{
+    font-family: Montserrat;
+    color: #5F5F6E;
+    text-transform: uppercase;
+    font-size: 18px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+.fully-responsive:before{
+    content: url("../img/benefit6.png");
+    margin-right: 20px;
+}
+.unlimited-options:before{
+    content: url("../img/benefit5.png");
+    margin-right: 20px;
+}
+.wordpress:before{
+    content: url("../img/benefit4.png");
+    margin-right: 20px;
+}
+.e-commerce:before{
+    content: url("../img/benefit3.png");
+    margin-right: 20px;
+}
+.customizable-design:before{
+    content: url("../img/benefit2.png");
+    margin-right: 20px;
+}
+.support:before{
+    content: url("../img/benefit.png");
+    margin-right: 20px;
+}
+.foto-block{
+    padding-top: 100px;
+}
+.face-imeges{
+    margin-bottom: 30px;
+}
+.flex-footer{
+    background-color:  #7beec7;
+    width: 100%;
+    height: 100%;
+}
+.footer-container{
+    max-width: 1139px;
+    margin: auto;
+    font-family: Montserrat;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-container-btn{
+    background-color:  #7beec7;
+    max-width: 556px;
+    height: 230px;
+}
+.footer-text{
+    color:  #ffffff;
+    font-size: 30px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-transform: uppercase;
+    margin-bottom: 30px;
+    line-height: 48px;/* Приближение из-за подстановки шрифтов */
+}
+.footer-btn{
+    background-color:  #ffffff;
+    width: 165px;
+    height: 49px;
+    color:  #7beec7;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+}
+.footer-container-form{
+    max-width: 556px;
+    height: 100%;
+    padding: 25px;
+    background-color:  #ffffff;
+}
+.footer-text-title{
+    font-size: 24px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    color: #5F5F6E;
+    padding-right: 100px;
+    line-height: 36px;/* Приближение из-за подстановки шрифтов */
+    margin-bottom: 10px;
+}
+.footer-form-text{
+    color:  #999999;
+    font-family: OpenSans;
+    font-size: 16px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 400;
+    padding-right: 55px;
+    line-height: 24px;/* Приближение из-за подстановки шрифтов */
+    margin-bottom: 30px;
+}
+.footer-form-input{
+    border-style: solid;
+    border-width: 1px;
+    border-color:  #EDEDED;
+    box-sizing: border-box;
+    background-color:  #ffffff;
+    width: 355px;
+    height: 50px;
+    padding-left: 20px;
+    text-transform: uppercase;
+}
+.footer-form-btn{
+    background-color:  #7beec7;
+    width: 135px;
+    height: 50px;
+    border: none;
+    color:  #ffffff;
+    font-size: 14px;/* Приближение из-за подстановки шрифтов */
+    font-weight: 700;
+    margin-left: -5px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
