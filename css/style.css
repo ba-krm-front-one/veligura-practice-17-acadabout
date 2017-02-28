@@ -202,8 +202,10 @@ body{
 }
 .footer-container-btn{
     background-color:  #7beec7;
-    max-width: 556px;
+    width: 47%;
+    flex-basis: 300px;
     height: 230px;
+    flex-grow: 1;
 }
 .footer-text{
     color:  #ffffff;
@@ -225,10 +227,12 @@ body{
     cursor: pointer;
 }
 .footer-container-form{
-    max-width: 556px;
+    width: 47%;
+    flex-basis: 300px;
     height: 100%;
     padding: 25px;
     background-color:  #ffffff;
+    flex-grow: 1;
 }
 .footer-text-title{
     font-size: 24px;/* Приближение из-за подстановки шрифтов */
