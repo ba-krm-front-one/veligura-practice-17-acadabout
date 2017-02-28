@@ -80,7 +80,7 @@ body{
 }
 .flex-content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
     padding-top: 150px;
 }
@@ -137,7 +137,7 @@ body{
 .benefit-block{
     margin-top: 100px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .benefit-block__element{
@@ -197,7 +197,7 @@ body{
     padding-top: 50px;
     padding-bottom: 50px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 .footer-container-btn{
@@ -257,6 +257,7 @@ body{
     height: 50px;
     padding-left: 20px;
     text-transform: uppercase;
+    flex-grow: 1;
 }
 .footer-form-btn{
     background-color:  #7beec7;
@@ -266,7 +267,7 @@ body{
     color:  #ffffff;
     font-size: 14px;/* Приближение из-за подстановки шрифтов */
     font-weight: 700;
-    margin-left: -5px;
+    flex-grow: 1;
     text-transform: uppercase;
     cursor: pointer;
 }
